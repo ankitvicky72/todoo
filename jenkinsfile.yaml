@@ -2,5 +2,5 @@ pipeline:
   stages:
     - stage: "Stage1"
       steps:
-        - ls
+        - echo ankit
     
