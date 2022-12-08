@@ -4,5 +4,5 @@ pipeline:
   stages:
     - stage: "Stage1"
       steps:
-        - apt-get update && upgrade -y
+        - sh script.sh
     
