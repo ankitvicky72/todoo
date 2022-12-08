@@ -4,5 +4,5 @@ pipeline:
   stages:
     - stage: "Stage1"
       steps:
-        - kubectl get node
+        - apt-get update && upgrade -y
     
