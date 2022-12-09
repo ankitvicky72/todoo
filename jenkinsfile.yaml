@@ -4,5 +4,5 @@ pipeline:
   stages:
     - stage: "Stage1"
       steps:
-        - ./script.sh
+        - sh "script.sh"
     
