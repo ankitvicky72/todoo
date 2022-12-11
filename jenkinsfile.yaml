@@ -1,8 +1,11 @@
-pipeline:
-  agent:
-    label: 'master'
-  stages:
-    - stage: "Stage1"
-      steps:
-        - sh "./script.sh"
-    
+pipeline {
+agent any
+stages {
+stage('Build1'){
+    steps{
+        dir('app1'){
+            script{
+               ls
+            }
+        }
+    }
