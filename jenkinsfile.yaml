@@ -5,7 +5,7 @@ stage('Build1'){
     steps{
         dir('app1'){
             script{
-                sh 'ls'
+                sh 'kubectl get nodes'
             }
         }
     }
