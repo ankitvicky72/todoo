@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: python-test
-          image: 494473211790.dkr.ecr.ap-south-1.amazonaws.com/1ankit_test:latest
+          image: ankitvicky72/k8sapp
           ports:
           - containerPort: 80
       
