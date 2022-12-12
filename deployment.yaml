@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: python-test
-          image: ankitvicky72/k8sapp
+          image: ankitvicky72/k8sapp:latest
           ports:
           - containerPort: 80
       
