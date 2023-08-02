@@ -1,11 +1,13 @@
-
 #!/bin/bash
 
-# Navigate to your application directory
-cd /var/www/html/your-app-name
+# Install Python 3 and Pip for Ubuntu
+apt-get update
+apt-get install -y python3 python3-pip
 
-# Install Python and required packages
-yum install -y python3 python3-pip
+# Navigate to your application directory
+cd /home/myapp
+
+# Install Python packages
 pip3 install -r requirements.txt
 
 # Run migrations
