@@ -8,7 +8,7 @@ apt-get install -y python3 python3-pip
 cd /home/myapp
 
 # Install Python packages
-pip3 install -r requirements.txt
+pip install django==3.2
 
 # Run migrations
 python3 manage.py migrate
