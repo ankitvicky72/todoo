@@ -5,8 +5,8 @@ files:
     destination: /var/www/html/your-app-name
 hooks:
   BeforeInstall:
-    - location: scripts/script.sh
+    - location: script.sh
       runas: root
   ApplicationStart:
-    - location: scripts/start_app.sh
+    - location: start_app.sh
       runas: root
